@@ -17,11 +17,11 @@ export default function PlayerSelector({ onSelect }: { onSelect: (players: strin
       <div className="grid grid-cols-2 gap-2">
         {players.map(p => (
           <button
-            key={p.name}
-            onClick={() => toggle(p.name)}
-            className={`p-2 rounded border hover:cursor-pointer transition-colors ${selected.includes(p.name) ? 'bg-blue-500 hover:bg-blue-700 text-white' : 'bg-gray-100 hover:bg-gray-300'}`}
+            key={p.pseudonym}
+            onClick={() => toggle(p.pseudonym)}
+            className={`p-2 rounded border hover:cursor-pointer transition-colors ${selected.includes(p.pseudonym) ? 'bg-blue-500 hover:bg-blue-700 text-white' : 'bg-gray-100 hover:bg-gray-300'}`}
           >
-            {p.name} 
+            {p.pseudonym} 
           </button>
         ))}
       </div>

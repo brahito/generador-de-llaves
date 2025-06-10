@@ -10,5 +10,11 @@
   { "name": "Charlie", "pseudonym": "Shin Chan" },
   { "name": "Mario", "pseudonym": "Gordon Freeman" },
   { "name": "Angelica", "pseudonym": "Megaman X" },
-  { "name": "Eren", "pseudonym": "Wario" }
+  { "name": "Eren", "pseudonym": "Wario" },
+  { "name": "Rodri", "pseudonym": null },
+  { "name": "Juan Diego", "pseudonym": null },
+  { "name": "Duvan", "pseudonym": null },
+  { "name": "Paula", "pseudonym": null },
+  { "name": "Hernando", "pseudonym": null },
+  { "name": "Brayan", "pseudonym": "Venom Snake" }
 ]
